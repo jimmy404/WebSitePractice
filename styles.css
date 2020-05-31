@@ -293,3 +293,22 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@media (max-width: 500px) {
+    .news-cards {
+    grid-template-columns: 1fr;
+    }
+
+    .cards-banner-one .content,
+    .cards-banner-two .content {
+    width: 100%;
+    padding: 60px 20px;
+    }
+    .footer-links .footer-container {
+    grid-template-columns: 1fr;
+    }
+
+    .footer-links .footer-container ul {
+    text-align: center;
+    }
+}
